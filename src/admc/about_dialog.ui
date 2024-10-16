@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>432</width>
-    <height>164</height>
+    <height>204</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,13 +18,15 @@
     <widget class="QLabel" name="label_1">
      <property name="font">
       <font>
-       <pointsize>20</pointsize>
+       <family>Noto Sans</family>
+       <pointsize>8</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
      </property>
      <property name="text">
-      <string notr="true">ADMC</string>
+      <string notr="true">Бага нашлась
+тут должно быть написано ADMC</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
