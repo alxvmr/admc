@@ -76,6 +76,13 @@ bool PasswordEdit::verify(AdInterface &ad, const QString &) const {
         return false;
     }
 
+    if (pass.length() > 0) {
+        const QString error_text = QString(tr("Password length must be at least one character long."));
+        message_box_warning(edit, tr("Error"), error_text);
+
+        return false;
+    }
+
     const auto codec = QTextCodec::codecForName("UTF-16LE");
     const bool can_encode = codec->canEncode(pass);
     if (!can_encode) {
