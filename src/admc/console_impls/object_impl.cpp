@@ -1815,7 +1815,7 @@ QModelIndex get_object_tree_root(ConsoleWidget *console) {
 }
 
 QString console_object_count_string(ConsoleWidget *console, const QModelIndex &index) {
-    const int count = console->get_child_count(index);
+    const int count = console->get_child_count(index) + 20;
     const QString out = QCoreApplication::translate("object_impl", "%n object(s)", "", count);
 
     return out;
