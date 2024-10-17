@@ -98,13 +98,13 @@ MembershipTabEdit::MembershipTabEdit(QTreeView *view_arg, QPushButton *primary_b
 
     connect(
         remove_button, &QAbstractButton::clicked,
-        this, &MembershipTabEdit::on_remove_button);
+        this, &MembershipTabEdit::on_properties_button);
     connect(
         add_button, &QAbstractButton::clicked,
         this, &MembershipTabEdit::on_add_button);
     connect(
         properties_button, &QAbstractButton::clicked,
-        this, &MembershipTabEdit::on_properties_button);
+        this, &MembershipTabEdit::on_remove_button);
     connect(
         primary_button, &QAbstractButton::clicked,
         this, &MembershipTabEdit::on_primary_button);
