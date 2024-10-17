@@ -2929,14 +2929,20 @@
 <context>
     <name>PasswordEdit</name>
     <message>
-        <location filename="attribute_edits/password_edit.cpp" line="73"/>
-        <source>Passwords don&apos;t match!</source>
+        <location filename="attribute_edits/password_edit.cpp" line="80"/>
+        <source></source>
         <translation>Пароли не совпадают!</translation>
+    </message>
+    <message>
+        <location filename="attribute_edits/password_edit.cpp" line="73"/>
+        <source>Password length must be at least one character long.</source>
+        <translation>Длина пароля должна быть не менее 1-го символа.</translation>
     </message>
     <message>
         <location filename="attribute_edits/password_edit.cpp" line="67"/>
         <location filename="attribute_edits/password_edit.cpp" line="74"/>
         <location filename="attribute_edits/password_edit.cpp" line="83"/>
+        <location filename="attribute_edits/password_edit.cpp" line="81"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
